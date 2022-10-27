@@ -53,7 +53,21 @@ You can also run the app without packaging it using -
 mvn spring-boot:run
 ```
 
-**5. For API test
-postman or https://reqbin.com/
+**5. For API test **
+
+Using CURL:
+
+```bash
+1. Example test pass:  curl -X POST http://localhost:8080/pv/password -H "Content-Type: application/json" -d '{"password": "Test@1234"}'
+2. Example test failed:  curl -X POST http://localhost:8080/pv/password -H "Content-Type: application/json" -d '{"password": "Test@12"}'
+```
+
+Postman or online(https://reqbin.com/)
+
 1. Example test pass ![Valid Test](./src/main/resources/testapipass.jpg)
-2. Example test failed ![Invalid Test](./src/main/resources/testapi.jpg)
+2.  ![Invalid Test](./src/main/resources/testapi.jpg)
+
+**6. Manually test scenarios**
+
+Enable main method and run the all the usecases: 
+CommonUtils.Java ![CommonUtils.java](./src/main/java/com/example/passwordvalidation/utils/CommonUtils.java)
