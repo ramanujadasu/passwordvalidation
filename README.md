@@ -53,7 +53,7 @@ You can also run the app without packaging it using -
 mvn spring-boot:run
 ```
 
-**5. For API test **
+**5. For API test**
 
 Using CURL:
 
