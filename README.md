@@ -64,8 +64,8 @@ Using CURL:
 
 Postman or online(https://reqbin.com/)
 
-1. Example test pass ![Valid Test](./src/main/resources/testapipass.jpg)
-2.  ![Invalid Test](./src/main/resources/testapi.jpg)
+1. Example test pass: ![Valid Test](./src/main/resources/testapipass.jpg)
+2. Example test failed: ![Invalid Test](./src/main/resources/testapi.jpg)
 
 **6. Manually test scenarios**
 
