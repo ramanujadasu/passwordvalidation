@@ -20,10 +20,10 @@ Implement the following rules. Each one of these will throw an exception with a 
 3.password should have one uppercase letter at least - DONE
 4.password should have one lowercase letter at least - DONE
 5.password should have one number at least - DONE
--Add feature: Password is OK if at least three of the previous conditions is true
--Add feature: password is never OK if item 1.d is not true.
+-Add feature: Password is OK if at least three of the previous conditions is true - DONE
+-Add feature: password is never OK if item 1.d is not true. - DONE
 Assume Each verification takes 1 second to complete. 
-Try to solve items 2 and 3 so tests can run faster.
+Try to solved items 2 and 3 so tests can run faster.
 ```
 
 ## Steps to setup
